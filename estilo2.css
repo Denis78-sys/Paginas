@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root{
+    --corA: #802219;
+    --corB: #FF8A80;
+    --corC: #FF4432;
+    --corD: #804540;
+    --corE: #CC3629;
+    
+    --font01: 'Bebas Neue', cursive;
+    --font02: 'Lobster', cursive;
+    --font03: 'Montserrat', sans-serif;
+    --fontTexto: Arial, Helvetica, sans-serif;
+}
+
+body{
+   background-image: -o-linear-gradient(to bottom, var(--corC), var(--corA));
+}
