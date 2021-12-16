@@ -14,5 +14,14 @@
 }
 
 body{
-   background-image: -o-linear-gradient(to bottom, var(--corC), var(--corA));
+   background-image: url('imagens/capa\ grande.jpg')
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
 }
