@@ -65,7 +65,7 @@ nav > a:hover{
     border-radius: 3px;
 }
 main{
-   /* height: 98vh;*/
+    height: 98vh;
   /*  background-image: url('imagens/capa_02-sem_fundo.png');*/
     min-width: 300px;
     max-width: 1000px;
