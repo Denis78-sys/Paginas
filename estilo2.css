@@ -64,7 +64,7 @@ nav > a:hover{
     padding: 1px;
     border-radius: 3px;
 }
-main{
+/*main{
     height: 98vh;
     background-image: url('imagens/capa_02-sem_fundo.png');
     min-width: 300px;
@@ -73,12 +73,15 @@ main{
     background-size: cover;
     background-position: center center;
     margin: auto;
-}
+}*/
+
+
 
 main > h1{
     color: whitesmoke;
     text-align: center;
     font-family: var(--font02);
+    display: block;
 }
 
 main > p{
@@ -87,7 +90,12 @@ main > p{
     font-family: var(--font02);
 }
 
-
+main .img{
+   
+   /* height: 100vh;*/
+    width: 100vw;
+    object-fit: cover;
+}
 footer{
     padding: 30px;
     background-color: var(--corD);
