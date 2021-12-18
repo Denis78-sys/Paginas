@@ -67,7 +67,22 @@ nav > a:hover{
 main{
     height: 98vh;
     background-image: url('imagens/capa_02-sem_fundo.png');
+    min-width: 300px;
+    max-width: 1000px;
     background-repeat: no-repeat;
-    background-size: 1000px;
+    background-size: cover;
     background-position: center center;
+    margin: auto;
+}
+
+main > h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: var(--font02);
+}
+
+main > p{
+    color: whitesmoke;
+    text-align: center;
+    font-family: var(--font02);
 }

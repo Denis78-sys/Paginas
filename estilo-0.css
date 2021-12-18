@@ -21,7 +21,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: var(--corA);
 }
 
 header{
@@ -66,12 +66,13 @@ nav > a:hover{
 }
 main{
     height: 98vh;
-  /*  background-image: url('imagens/capa_02-sem_fundo.png');*/
+    background-image: url('imagens/capa_02-sem_fundo.png');
     min-width: 300px;
     max-width: 1000px;
     background-repeat: no-repeat;
-    background-size: 800px;
+    background-size: cover;
     background-position: center center;
-    margin: 0px;
-
+    margin: auto;
+    
 }
+
