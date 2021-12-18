@@ -86,3 +86,20 @@ main > p{
     text-align: center;
     font-family: var(--font02);
 }
+
+
+footer{
+    padding: 30px;
+    background-color: var(--corD);
+    color: white;
+    text-align: center; 
+    font-size: 0.8em;
+}
+
+footer > p{
+    color: var(--corC);
+}
+
+footer .nome{
+    color: white;
+}
