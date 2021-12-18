@@ -64,7 +64,9 @@ nav > a:hover{
     padding: 1px;
     border-radius: 3px;
 }
-main{
+
+
+main > nav{
     height: 98vh;
     background-image: url('imagens/capa_02-sem_fundo.png');
     min-width: 300px;
@@ -73,6 +75,12 @@ main{
     background-size: cover;
     background-position: center center;
     margin: auto;
+
+   /* position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;*/
     
 }
 
