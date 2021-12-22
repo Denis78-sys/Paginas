@@ -65,14 +65,44 @@ nav > a:hover{
     border-radius: 3px;
 }
 
-
-main .img{
-   
-   /*height: 85vh;*/
-   width: 100vw;
-   object-fit: cover;
-  
+section{
+    position: relative;
+   /* background-color: chartreuse;*/
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+  /*  border: 0px;*/
     
 }
 
+article{
+    height: 96vh;
+    width: 72%;
+    background-image: url('imagens/capa_02-sem_fundoMedia.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 56%;
+    transform: translate(-50%, -50%);
+   
+}
 
+footer{
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    background-color: var(--corD);
+    color: white;
+    text-align: center; 
+    font-size: 0.8em;
+}
+
+footer > p{
+    color: var(--corC);
+}
+
+footer .nome{
+    color: white;
+}
