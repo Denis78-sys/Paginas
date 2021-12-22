@@ -20,16 +20,16 @@
     margin: 0px;
 }
 
-/*body{
+body{
     background-color: var(--corA);
    
 
-}*/
+}
 
 header{
 
-   /* background-image: linear-gradient(to bottom, var(--corC), var(--corA);*/
-   background-color: blue;
+    background-image: linear-gradient(to bottom, var(--corC), var(--corA));
+  /* background-color: blue;*/
     height: 150px;
 }
 
@@ -51,8 +51,8 @@ header > p{
     text-shadow: 1px 1px 2px black;
 }
 nav{
-    background-color: blueviolet;
-    /*background-color: var(--corA);*/
+    /*background-color: blueviolet;*/
+    background-color: var(--corA);
     font-family: var(--font01);
     font-size: 1.8em;
     text-align: center;
@@ -73,11 +73,11 @@ nav > a:hover{
 
 section{
     position: relative;
-    background-image: linear-gradient(to bottom, blue, black);
-   /* background-color: blue;*/
+   /* background-image: linear-gradient(to bottom, blue, black);*/
+    background-image: linear-gradient(to bottom, var(--corC), var(--corA));
     height: 90vh;
     width: 100%;
-
+    
    /* margin: auto;*/
     border: 20%;
 
@@ -85,7 +85,7 @@ section{
 }
 
 article{
-    height: 80vh;
+    height: 68vh;
     width: 100%;
     background-image: url('imagens/capa_02-sem_fundoMedia.png');
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ article{
     position: absolute;
     background-size: cover;
     left: 50%;
-    top: 56%;
+    top: 62%;
     transform: translate(-50%, -50%);
    
 }
@@ -101,7 +101,7 @@ article{
 footer{
    
     padding: 30px;
-    background-color: black;
+    background-color: var(--corD);
    /* background-color: var(--corD);*/
     color: white;
     text-align: center; 
