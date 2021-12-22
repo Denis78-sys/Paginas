@@ -20,16 +20,21 @@
     margin: 0px;
 }
 
-body{
+/*body{
     background-color: var(--corA);
-}
+   
+
+}*/
 
 header{
-    background-image: linear-gradient(to bottom, var(--corC), var(--corA));
+
+   /* background-image: linear-gradient(to bottom, var(--corC), var(--corA);*/
+   background-color: blue;
     height: 150px;
 }
 
 header > h1{
+
     color: white;
     font-family: var(--font02);
     text-align: center;
@@ -46,7 +51,8 @@ header > p{
     text-shadow: 1px 1px 2px black;
 }
 nav{
-    background-color: var(--corA);
+    background-color: blueviolet;
+    /*background-color: var(--corA);*/
     font-family: var(--font01);
     font-size: 1.8em;
     text-align: center;
@@ -67,17 +73,19 @@ nav > a:hover{
 
 section{
     position: relative;
-   /* background-color: chartreuse;*/
+    background-image: linear-gradient(to bottom, blue, black);
+   /* background-color: blue;*/
     height: 90vh;
     width: 100%;
-    margin: auto;
-  /*  border: 0px;*/
-    
+   /* margin: auto;*/
+    border: 20%;
+
+   
 }
 
 article{
-    height: 96vh;
-    width: 72%;
+    height: 79vh;
+    width: 60%;
     background-image: url('imagens/capa_02-sem_fundoMedia.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -90,13 +98,15 @@ article{
 }
 
 footer{
-    position: absolute;
-    width: 100%;
+   
     padding: 30px;
-    background-color: var(--corD);
+    background-color: black;
+   /* background-color: var(--corD);*/
     color: white;
     text-align: center; 
     font-size: 0.8em;
+   
+    
 }
 
 footer > p{
