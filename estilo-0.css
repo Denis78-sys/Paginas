@@ -74,7 +74,7 @@ nav > a:hover{
 section{
     position: relative;
    /* background-image: linear-gradient(to bottom, blue, black);*/
-    background-image: linear-gradient(to bottom, var(--corC), var(--corA));
+    background-color:  var(--corA);
     height: 90vh;
     width: 100%;
     
