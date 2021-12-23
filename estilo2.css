@@ -100,10 +100,10 @@ article{
     background-image: url('imagens/capa_02-sem_fundoMedia.png');
     background-repeat: no-repeat;
     background-position: top center;
-    height: 96vh;
+    height: 88vh;
     width: 74%;
     left: 50%;
-    top: 51%;
+    top: 56%;
     transform: translate(-50%, -50%);
 }
 footer{

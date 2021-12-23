@@ -56,6 +56,7 @@ nav{
     font-family: var(--font01);
     font-size: 1.8em;
     text-align: center;
+    padding-bottom: 54px;
 }
 nav > a{
    margin: 5px;
@@ -85,7 +86,7 @@ section{
 }
 
 article{
-    height: 68vh;
+    height: 98vh;
     width: 100%;
     background-image: url('imagens/capa_02-sem_fundoMedia.png');
     background-repeat: no-repeat;
@@ -93,7 +94,7 @@ article{
     position: absolute;
     background-size: cover;
     left: 50%;
-    top: 62%;
+    top: 45%;
     transform: translate(-50%, -50%);
    
 }
