@@ -71,7 +71,19 @@ nav > a:hover{
     padding: 1px;
     border-radius: 3px;
 }
+#audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
 
+#audio > audio{
+    border-radius: 37px;
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.507);
+    height: 30px;
+}
 section{
     position: relative;
     background-image: linear-gradient(to bottom, var(--corA), black);
