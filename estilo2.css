@@ -71,49 +71,36 @@ section{
     background-color: rgba(0, 0, 0, 0.288);
 }
 
-section > h1{
-    
+section > h1{  
     color: whitesmoke;
     text-align: center;
     font-family: var(--font02);
     display: block;
+    text-shadow: 1px 1px 0px black;
 }
 
 section > p{
-
     color: whitesmoke;
     text-align: center;
     font-family: var(--font02);
+    text-shadow: 1px 1px 0px black;
 }
 
 
 section{
 
     position: relative;
-    height: 98vh;
+    height: 70vw;
     width: 100%;
 }
 
-article{
-    position: absolute;
-
-    background-image: url('imagens/capa_02-sem_fundoMedia.png');
-    background-repeat: no-repeat;
-    background-position: top center;
-    height: 88vh;
-    width: 74%;
-    left: 50%;
-    top: 56%;
-    transform: translate(-50%, -50%);
-}
 footer{
    
     padding: 30px;
-    background-color: var(--corD);
-  
+    background-color: black;
     color: white;
-    text-align: center; 
-    font-size: 0.8em;
+    text-align: right; 
+    font-size: 0.5em;
    
     
 }
