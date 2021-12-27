@@ -65,8 +65,8 @@ nav > a:hover{
     border-radius: 3px;
 }
 section{
-    padding: 10px;
-    height: 96vh;
+    
+    height: 98vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.288);
 }
@@ -88,16 +88,14 @@ section > p{
 
 
 section{
-
     position: relative;
-    height: 70vw;
-    width: 100%;
+   
 }
 
 footer{
    
     padding: 30px;
-    background-color: black;
+    background-color: var(--corA);
     color: white;
     text-align: right; 
     font-size: 0.5em;
