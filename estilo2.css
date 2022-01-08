@@ -64,26 +64,30 @@ nav > a:hover{
     padding: 1px;
     border-radius: 3px;
 }
+
 section{
     
     height: 98vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.288);
+    
 }
 
-section > h1{  
+article > h1{  
+    padding: 10px;
     color: whitesmoke;
     text-align: center;
     font-family: var(--font02);
     display: block;
     text-shadow: 1px 1px 0px black;
+    font-size: 2em;
 }
 
-section > p{
+article > p{
     color: whitesmoke;
     text-align: center;
     font-family: var(--font02);
     text-shadow: 1px 1px 0px black;
+    margin-bottom: 10px;
 }
 
 
@@ -92,10 +96,29 @@ section{
    
 }
 
+article{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../Paginas/imagens/show4.jpg');
+    position: absolute;
+
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    left: 50%;
+    top: 50%;
+ 
+    transform: translate(-50%, -50%);
+ 
+    
+}
+
 footer{
    
     padding: 30px;
-    background-color: var(--corA);
+    background-color: black;
     color: white;
     text-align: right; 
     font-size: 0.5em;
